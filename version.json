@@ -1,0 +1,31 @@
+// v1.0 just released, first hotfix:
+{
+    "version": "1.0.3",
+    "base": "1.0",
+    "store_version": "1.0.0",
+    "patch_url": "https://github.com/.../v1.0.3/patch.pck",
+    "base_upgrades": []
+}
+
+// v2.0 released as new base, hotfixed to 2.0.5:
+{
+    "version": "2.0.5",
+    "base": "2.0",
+    "store_version": "1.0.0",
+    "patch_url": "https://github.com/.../v2.0.5/patch.pck",
+    "base_upgrades": [
+        {"from": "1.0", "to": "2.0", "url": "https://github.com/.../base_1.0_to_2.0.pck"}
+    ]
+}
+
+// v3.0 released as new base:
+{
+    "version": "3.0.2",
+    "base": "3.0",
+    "store_version": "1.0.0",
+    "patch_url": "https://github.com/.../v3.0.2/patch.pck",
+    "base_upgrades": [
+        {"from": "1.0", "to": "2.0", "url": "https://github.com/.../base_1.0_to_2.0.pck"},
+        {"from": "2.0", "to": "3.0", "url": "https://github.com/.../base_2.0_to_3.0.pck"}
+    ]
+}
