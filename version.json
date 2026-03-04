@@ -1,9 +1,5 @@
-// v1.0 just released, first hotfix:
 {
     "version": "1.0.0",
     "base": "1.0",
-    "store_version": "1.0.0",
-    "patch_url": "",
-    "base_upgrades": []
+    "patch_url": "https://github.com/Blasg2/BHsimOpen/releases/download/v1.0.3/patch.pck"
 }
-
